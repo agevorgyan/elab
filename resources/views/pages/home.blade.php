@@ -235,7 +235,7 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
+    {{-- Temporarily hidden Testimonials Section
     <section class="section" id="testimonials">
         <div class="container">
             <div class="section-header">
@@ -276,6 +276,7 @@
             </div>
         </div>
     </section>
+    --}}
 
     <!-- FAQ Accordion -->
     <section class="section section-alt" id="faq">
