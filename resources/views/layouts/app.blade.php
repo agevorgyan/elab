@@ -20,13 +20,13 @@
     <meta property="og:image" content="{{ asset('assets/images/logo-full.png') }}">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css?v=1.9') }}">
     @yield('styles')
 </head>
 <body>
 
     <!-- Top Announcement / Quick Contact Bar -->
-    <div style="background: rgba(13, 19, 31, 0.95); border-bottom: 1px solid var(--border-subtle); padding: 7px 0; font-size: 0.84rem;">
+    <div class="top-announcement-bar" style="background: rgba(13, 19, 31, 0.95); border-bottom: 1px solid var(--border-subtle); padding: 7px 0; font-size: 0.84rem;">
         <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
             <div style="display: flex; align-items: center; gap: 16px; color: var(--text-secondary);">
                 <span>📍 Երևան, Հայաստան</span>
@@ -204,11 +204,11 @@
                 <div class="footer-col">
                     <h4 class="footer-col-title">WEB Ծառայություններ</h4>
                     <ul class="footer-links">
-                        <li><a href="{{ route('services.show', 'business-card-website') }}">Կայք այցեքարտ (150,000 դր)</a></li>
-                        <li><a href="{{ route('services.show', 'landing-page') }}">Լենդինգ էջ (190,000 դր)</a></li>
-                        <li><a href="{{ route('services.show', 'corporate-website') }}">Կորպորատիվ կայք (290,000 դր)</a></li>
-                        <li><a href="{{ route('services.show', 'online-shop') }}">Օնլայն խանութ (350,000 դր)</a></li>
-                        <li><a href="{{ route('services.show', 'news-portal') }}">Նորությունների կայք (450,000 դր)</a></li>
+                        <li><a href="{{ route('services.show', 'business-card-website') }}">Կայք այցեքարտ</a></li>
+                        <li><a href="{{ route('services.show', 'landing-page') }}">Լենդինգ էջ</a></li>
+                        <li><a href="{{ route('services.show', 'corporate-website') }}">Կորպորատիվ կայք</a></li>
+                        <li><a href="{{ route('services.show', 'online-shop') }}">Օնլայն խանութ</a></li>
+                        <li><a href="{{ route('services.show', 'news-portal') }}">Նորությունների կայք</a></li>
                         <li><a href="{{ route('services.show', 'custom-web-from-scratch') }}">Կայք 0-ից & SaaS</a></li>
                     </ul>
                 </div>

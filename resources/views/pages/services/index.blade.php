@@ -9,7 +9,7 @@
     <section class="hero-section" style="padding: 70px 0 50px;">
         <div class="container">
             <span class="badge" style="margin-bottom: 16px;">Պրոֆեսիոնալ Մոտեցում</span>
-            <h1 class="hero-title" style="font-size: 3.2rem;">
+            <h1 class="hero-title" style="font-size: clamp(2.2rem, 5vw, 3.2rem); word-break: break-word;">
                 Մեր Բոլոր <span class="text-gradient">Ծառայությունները</span>
             </h1>
             <p class="hero-subtitle">

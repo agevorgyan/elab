@@ -42,7 +42,7 @@
     <!-- Details Body -->
     <section class="section" style="padding-top: 20px;">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 48px; align-items: start;">
+            <div class="service-details-grid">
                 <!-- Main description & features -->
                 <div>
                     <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 40px; margin-bottom: 36px;">
@@ -52,7 +52,7 @@
                         </p>
 
                         <h3 style="font-size: 1.3rem; margin-bottom: 20px;">Ի՞նչ է Ներառված Փաթեթում</h3>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                        <div class="service-features-grid">
                             @foreach($service->features as $feature)
                                 <div style="display: flex; align-items: center; gap: 12px; padding: 14px; background: rgba(255, 255, 255, 0.03); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>

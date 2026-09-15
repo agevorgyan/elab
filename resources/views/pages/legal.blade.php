@@ -19,8 +19,8 @@
 
     <section class="section" style="padding-top: 0;">
         <div class="container container-narrow">
-            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 48px 40px; color: #cbd5e1; line-height: 1.8; font-size: 1.05rem;">
-                {!! nl2br(e($page->content)) !!}
+            <div class="legal-content" style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 48px 40px; color: #cbd5e1; line-height: 1.8; font-size: 1.05rem;">
+                {!! $page->content !!}
             </div>
         </div>
     </section>

@@ -9,7 +9,7 @@
     <section class="hero-section" style="padding: 70px 0 40px;">
         <div class="container">
             <span class="badge badge-violet" style="margin-bottom: 16px;">Մեր Աշխատանքները</span>
-            <h1 class="hero-title" style="font-size: 3.2rem;">
+            <h1 class="hero-title" style="font-size: clamp(2.2rem, 5vw, 3.2rem); word-break: break-word;">
                 eLab Agency-ի <span class="text-gradient">Պորտֆոլիոն</span>
             </h1>
             <p class="hero-subtitle">
