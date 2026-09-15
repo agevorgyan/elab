@@ -60,16 +60,16 @@
                                 </div>
                             @endif
 
-                            <div class="portfolio-footer">
+                            <div class="portfolio-footer" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
                                 <span class="client-name">Հաճախորդ՝ {{ $project->client }} ({{ $project->year }})</span>
-                                <div style="display: flex; gap: 8px;">
+                                <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                                     @if(!empty($project->live_url))
-                                        <a href="{{ $project->live_url }}" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" title="Բացել Կայքը">
-                                            <span>Կայք ↗</span>
+                                        <a href="{{ $project->live_url }}" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="border-color: var(--accent-cyan); color: var(--accent-cyan);" title="Այցելել Կայքը">
+                                            <span>Այցելել Կայքը ↗</span>
                                         </a>
                                     @endif
                                     <a href="{{ route('portfolio.show', $project->slug) }}" class="btn btn-secondary btn-sm">
-                                        <span>Քեյս</span>
+                                        <span>Տեսնել ավելին</span>
                                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                                     </a>
                                 </div>

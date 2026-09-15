@@ -20,7 +20,7 @@
     <meta property="og:image" content="{{ asset('assets/images/logo-full.png') }}">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css?v=1.9') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css?v=2.0') }}">
     @yield('styles')
 </head>
 <body>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="nav-wrap">
                 <a href="{{ route('home') }}" class="brand-logo" style="display: flex; align-items: center; gap: 10px;">
-                    <img src="{{ asset('assets/images/logo-white.png') }}" alt="eLab Digital Studio" style="height: 75px; width: auto; object-fit: contain;">
+                    <img src="{{ asset('assets/images/logo-white.png') }}" alt="eLab Digital Studio" class="brand-logo-img">
                 </a>
 
                 <ul class="nav-links" id="navLinks">

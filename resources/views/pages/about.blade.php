@@ -9,7 +9,7 @@
     <section class="hero-section" style="padding: 70px 0 50px;">
         <div class="container">
             <span class="badge" style="margin-bottom: 16px;">Մեր Պատմությունը</span>
-            <h1 class="hero-title" style="font-size: 3.2rem;">
+            <h1 class="hero-title">
                 Թվային Բիզնեսի Ձեր <br><span class="text-gradient">Հուսալի Գործընկերը</span>
             </h1>
             <p class="hero-subtitle">

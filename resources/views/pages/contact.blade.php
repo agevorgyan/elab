@@ -9,7 +9,7 @@
     <section class="hero-section" style="padding: 70px 0 40px;">
         <div class="container">
             <span class="badge" style="margin-bottom: 16px;">Հետադարձ Կապ</span>
-            <h1 class="hero-title" style="font-size: 3.2rem;">
+            <h1 class="hero-title">
                 Կապվեք <span class="text-gradient">eLab Digital Studio-ի</span> Հետ
             </h1>
             <p class="hero-subtitle">

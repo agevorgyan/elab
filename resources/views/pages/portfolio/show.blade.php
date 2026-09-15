@@ -22,11 +22,11 @@
                 <span class="badge badge-violet">{{ $project->year }}</span>
             </div>
 
-            <h1 class="hero-title" style="font-size: clamp(2.2rem, 4.5vw, 3.4rem); margin-bottom: 20px;">
+            <h1 class="hero-title" style="margin-bottom: 20px;">
                 {{ $project->title }}
             </h1>
 
-            <p style="color: var(--text-secondary); font-size: 1.2rem; max-width: 800px; line-height: 1.6;">
+            <p style="color: var(--text-secondary); font-size: 1.15rem; max-width: 800px; line-height: 1.6;">
                 {{ $project->summary }}
             </p>
         </div>
@@ -44,11 +44,11 @@
     <!-- Case Study Details -->
     <section class="section" style="padding-top: 0;">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 48px; align-items: start;">
+            <div class="portfolio-details-grid">
                 <!-- Main Body -->
                 <div>
                     <!-- Challenge -->
-                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 36px; margin-bottom: 28px;">
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: clamp(20px, 4vw, 36px); margin-bottom: 28px;">
                         <span class="badge badge-popular" style="margin-bottom: 12px;">Խնդիրը</span>
                         <h2 style="font-size: 1.5rem; margin-bottom: 14px;">Բիզնեսի Մարտահրավերը</h2>
                         <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7;">
@@ -57,7 +57,7 @@
                     </div>
 
                     <!-- Solution -->
-                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 36px; margin-bottom: 28px;">
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: clamp(20px, 4vw, 36px); margin-bottom: 28px;">
                         <span class="badge" style="margin-bottom: 12px;">Լուծումը</span>
                         <h2 style="font-size: 1.5rem; margin-bottom: 14px;">eLab Agency-ի Տեխնիկական Լուծումը</h2>
                         <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7;">
@@ -67,7 +67,7 @@
 
                     <!-- Results Metrics -->
                     @if(!empty($project->results) && is_array($project->results))
-                        <div style="background: var(--bg-card); border: 1px solid var(--border-active); border-radius: var(--radius-lg); padding: 36px;">
+                        <div style="background: var(--bg-card); border: 1px solid var(--border-active); border-radius: var(--radius-lg); padding: clamp(20px, 4vw, 36px);">
                             <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.3); margin-bottom: 12px;">Արդյունքներ</span>
                             <h2 style="font-size: 1.5rem; margin-bottom: 20px;">Չափելի Ձեռքբերումներ</h2>
                             <div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
@@ -84,7 +84,7 @@
 
                 <!-- Project Sidebar Meta -->
                 <div>
-                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 32px; margin-bottom: 28px;">
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: clamp(20px, 4vw, 32px); margin-bottom: 28px;">
                         <h3 style="font-size: 1.2rem; margin-bottom: 20px;">Նախագծի Տեղեկություն</h3>
 
                         <div style="margin-bottom: 18px;">
